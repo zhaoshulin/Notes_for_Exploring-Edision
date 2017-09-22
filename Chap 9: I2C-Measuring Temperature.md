@@ -1,0 +1,3 @@
+- 2 options when sensor is not ready:
+	- Hold Master: Edison is held waiting for the data
+	- No Hold Master: Edison is released to do something else and poll for the data until it is ready
