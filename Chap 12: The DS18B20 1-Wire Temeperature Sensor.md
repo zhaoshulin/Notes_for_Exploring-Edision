@@ -1,0 +1,1 @@
+- Edison doesn't support 1-Wire Protocol. Because: fast switching between input and output.
