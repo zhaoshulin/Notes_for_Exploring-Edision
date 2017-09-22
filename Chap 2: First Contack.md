@@ -1,0 +1,2 @@
+- Goal of mraa library: allows you to access the GPIO no matter which of the breakout boards you are using. (Ardunio, Galileo, RP3, etc.)
+- Mraa uses a standard set of pin numbers which are mapped to appropriate pins on different devices. For example, mraa pin number 13 is mapped to on the Arduino breakout board pin 13, and to pin J17-14 on the mini breakout board.
