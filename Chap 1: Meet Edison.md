@@ -1,6 +1,6 @@
 - Edison has 2 separate processors:
 	1. Atom Host CPU (500 MHz): running Linux OS
-	2. Quark processor (100 MHz) acting as an MCU Micro-controller: running RTOS derived OS
+	2. Quark processor (100 MHz) acting as an MCU Micro-controller: running RTOS derived OS, do nothing but run the program you downloaded.
 ![Host CPU vs. MCU](http://www.i-programmer.info/images/stories/News/2015/May/B/edisonmcu.jpg)
 - Which board for which applications:
 	- Arduino Uno is good for projects that involve a lot of digital and analog I/O and minimal communication (because of no network functions) and where size and power requirements are not an issue. It is not low power as standard but there are variants suitable for special purposes such as wearables.

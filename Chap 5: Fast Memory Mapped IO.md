@@ -16,3 +16,6 @@
 - SYSFS can produce a 0.03MHz pulse train; while memory mapping can produce a 2 MHz pulse train!
 - In Edison, you can simulate time with a for loop: `time = 0.66*i + 0.548 (microseconds)`. It is much better than using a system call of `clock_gettime()`
 - Using fast memory mapped IO, you can work with signals in from 0.25 microseconds output, and with about 5 microseconds inputs.
+- How to use fast memory mapped mode for pin 13:
+		mraa_gpio_context pin = mraa_gpio_init(13);
+		mraa_gpio_use_mmaped(pin, 1);
