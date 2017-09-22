@@ -1,0 +1,4 @@
+- SPI is used for high data rate streaming, e.g., video data, LCD displays, ADC.
+- In principle, Edison only supports at most 2 SPI devices.
+- When you keep reading, the first read takes longer than subsequent reads, because:
+	- The pin is setup at this first point.
