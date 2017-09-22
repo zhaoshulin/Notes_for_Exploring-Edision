@@ -32,4 +32,5 @@
 			- Interrupt is disabled when handler is executing. You may lose events.
 			- Mraa will only spin up a single thread for each pin. So you can only have associate one interrupt handler per pin. For example, you will not be able to set up a chain of handlers that deal with a rising edge, then a falling edge.
 > Note: Right now, if without doing optimizations, Edison can only be millisecond's fast, but not macrosecond's fast!
+
 > Next Chapter will try to solve this timing problem...
