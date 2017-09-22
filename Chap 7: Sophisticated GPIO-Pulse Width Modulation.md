@@ -1,0 +1,3 @@
+- The goal of this chapter: move the not-fast-enough problem away from the Atom CPU.
+- There are 4 PWM GPIO output pins, which can constituently generate 5X faster PWM than memory mapped pins once setting is done, because of no CPU involved.
+> This is probably useless for `sensor.read()`......
